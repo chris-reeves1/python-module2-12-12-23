@@ -145,5 +145,25 @@ for i in range(1,3):
 # "is awesome".
 # counter + while loop, an input, a print, a +=1.
 
+#counter = 0
+#while counter < 5:
+    #name = input("enter a name")
+    #print(name + " is awesome!")
+    #counter += 1 
+
+# for loop
+#for counter in range(5):
+#    name = input("enter a name: ")
+#    print(name + " is awesome!")
+
+# list comprehension
+
+#names = [input("What is your name? ") for name in range(5)] 
+#for name in names: print(f"{name} is awesome!")
+
+# matt c - try to do it all in 1 line. 
+
+# [print(f"{name} is awesome!") for name in [input("enter a name: ") for x in range(5)]]
+
 
 
