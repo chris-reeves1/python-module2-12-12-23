@@ -109,5 +109,15 @@ else:
 # and print the converted value. If Kgs print out in Lbs. 
 # else: to handle the other conversion. 
 # Error handling for upper/lower case input.
+
+weight = float(input("Enter a weight: "))
+unit = input("Enter K (kgs) or L (lbs): ")
+
+if unit.upper() == "K":
+    converted = weight / 0.45
+    print("weight in Lbs: ", converted)
+else:
+    converted = weight * 0.45
+    print("weight in Lbs: ", converted)
     
 
