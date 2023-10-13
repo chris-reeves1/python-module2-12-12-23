@@ -117,9 +117,46 @@ print(drinks["still"]) # can only query with the key not the value
 drinks["non-alcohlic"] = "water"
 print(drinks)
 
+# Overwrite
 
+drinks["non-alcohlic"] = "squash"
+print(drinks)
 
+# return all values or keys or both
 
+print(drinks.values())
+print(drinks.keys())
+print(drinks.items())
 
+print("water" in drinks.values())
+print("still" in drinks)
+
+# get method
+
+print(drinks.get("still"))
+print(drinks.get("stille"))
+print(drinks.get("stillle", "not found"))
+
+# update method - extends dictionary 
+
+drinks.update({"sugery":"cola"})
+print(drinks)
+drinks.update(very_sugery = "redbull")
+print(drinks)
+
+# pop method
+
+print(drinks.pop("non-alcohlic"))
+print(drinks.pop("non-alcohlic", "not-found"))
+print(drinks)
+
+# exercise:
+
+# Make a dictionary of books, with 3 authors and multiple books per author. 
+# Use an input asking for the author Name 
+# print back as a string a list of the books by that author.
+# use the .join() method
+
+   
 
 
