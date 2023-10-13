@@ -157,6 +157,30 @@ print(drinks)
 # print back as a string a list of the books by that author.
 # use the .join() method
 
-   
+#books_dict = {"author1": ["book1", "book2"], "author2": ["book1", "book2"]}
 
+#y = input("enter author name: ")
+
+#print(", ".join(books_dict[y]))
+
+# tuples
+# we cant update a tuple but otherwise is the same as a list
+# indicates that we dont want to change the data
+# less memory - very slight
+# speed - a little bit quicker 
+# () instead of [] or nothing at all
+
+shapes = ("square", "circle", "triangle")
+shapes1 = "square", "circle", "triangle"
+
+print(type(shapes))
+print(type(shapes1))
+
+# sets
+# no indexing
+# no duplicate values
+
+items = {"apple", "sqaure", "red"}
+
+print(type(items))
 
