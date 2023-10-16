@@ -6,3 +6,9 @@
 #to the relevant flavour - this list is displayed every iteration. 
 #If he enters Q, he quits and leaves; the barman wishes him well in his search for love. 
 #If he orders but can't pay he's thrown out.
+
+shakes = {}
+budget = int(input())
+
+while True:
+
