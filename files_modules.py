@@ -119,6 +119,13 @@ for line in file:
     print(line.strip())
 file.close()
 
+#' With statement - closes automatically
+
+with open("filename.txt", "w") as file: #alisaing
+    for n in range(1,11):
+        newline = "this is line" +  " " + str(n) + "\n"
+        file.write(newline)
+
 
 
 
